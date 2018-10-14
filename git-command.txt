@@ -1,0 +1,16 @@
+git指令集：
+
+1.初始化： git init
+2.添加文件： 
+git add  xxx
+git commit -m 'xxxxx'
+3.查看状态：git status
+4.查看区别：git diff xxx
+5.回退到上个版本：git reset --hard HEAD^或者(HEAD~100)或者（1094a）即commit id
+6.查看log记录：
+git log      ---提交历史
+git relog    ---命令历史
+7.撤销修改： git checkout -- xxx
+8.删除操作：
+git rm xxx
+git commit -m ‘xxxxx’

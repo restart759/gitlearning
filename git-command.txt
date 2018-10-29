@@ -26,3 +26,13 @@ git commit -m ‘xxxxx’
 合并某分支到当前分支：git merge <name>
 
 删除分支：git branch -d <name>
+
+10.远程仓库：
+
+（1）创建SSH：ssh-keygen -t rsa -C "youremail@example.com"
+
+（2）关联一个远程库:git remote add origin git@server-name:path/repo-name.git；
+
+（3）关联后第一次推送：git push -u origin master；
+
+（4）日后的推送：git push origin master.
